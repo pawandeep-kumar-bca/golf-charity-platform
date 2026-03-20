@@ -66,7 +66,7 @@ export default function Signup() {
 
         <button
           onClick={handleSignup}
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white p-3 rounded"
+          className="w-full bg-blue-600 hover:bg-blue-700 text-black p-3 rounded"
         >
           {loading ? "Loading..." : "Signup"}
         </button>
