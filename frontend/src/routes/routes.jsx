@@ -1,9 +1,9 @@
 import { Routes, Route, Navigate } from "react-router-dom"
-import Landing from "./pages/LandingPage"
-import Login from "./pages/Login"
-import Signup from "./pages/Signup"
-import Dashboard from "./pages/Dashboard"
-import Admin from "./pages/Admin"
+import Landing from "../pages/LandingPage"
+import Login from "../pages/Login"
+import Signup from "../pages/Signup"
+import Dashboard from "../pages/Dashboard"
+import Admin from "../pages/Admin"
 
 const AppRoutes = ({ user }) => {
   return (

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { supabase } from "./lib/supabase"
-import AppRoutes from "./routes"
+import AppRoutes from "./routes/routes"
 
 function App() {
   const [user, setUser] = useState(null)
